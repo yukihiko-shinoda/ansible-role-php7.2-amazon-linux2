@@ -1,0 +1,40 @@
+---
+php_7_2_library_codeanywhere:
+  - php-php-gettext
+  - php-tcpdf
+  - php-tcpdf-dejavu-sans-fonts
+  - php72w
+  - php72w-bcmath
+  - php72w-cli
+  - php72w-common
+  - php72w-gd
+  - php72w-intl
+  - php72w-mbstring
+  - php72w-mcrypt
+  - php72w-mysql
+  - php72w-opcache
+  - php72w-pecl-apcu
+  - php72w-pecl-redis
+  - php72w-pecl-xdebug
+  - php72w-pdo
+  - php72w-process
+  - php72w-tidy
+  - php72w-xml
+php_7_2_library_heroku:
+# Require to install specification of Heroku by yum
+  - php72u-common
+  - php72u-bcmath
+  - php72u-mbstring
+# Specification of Heroku
+  - php72u-json
+  - php72u-cli
+  - php72u-fpm
+  - php72u-mysqlnd
+  - php72u-zip
+  - php72u-opcache
+  - php72u-pgsql
+  - php72u-xml
+  - php72u-pecl-apcu
+  - php72u-pecl-redis
+# For development
+  - php72u-pecl-xdebug
